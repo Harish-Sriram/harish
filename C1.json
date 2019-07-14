@@ -84,9 +84,9 @@
 							"}",
 							");",
 							"",
-							"pm.test(\"Response time is less than 280ms\", function () ",
+							"pm.test(\"Response time is less than 300ms\", function () ",
 							"{",
-							"    pm.expect(pm.response.responseTime).to.be.below(280);",
+							"    pm.expect(pm.response.responseTime).to.be.below(300);",
 							"}",
 							");",
 							"",
@@ -133,21 +133,9 @@
 					}
 				],
 				"url": {
-					"raw": "https://reqres.in/api/users?page=1",
-					"protocol": "https",
+					"raw": "{{url}}=1",
 					"host": [
-						"reqres",
-						"in"
-					],
-					"path": [
-						"api",
-						"users"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "1"
-						}
+						"{{url}}=1"
 					]
 				}
 			},
@@ -270,21 +258,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://reqres.in/api/users?page=2",
-					"protocol": "https",
+					"raw": "{{url}}=2",
 					"host": [
-						"reqres",
-						"in"
-					],
-					"path": [
-						"api",
-						"users"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "2"
-						}
+						"{{url}}=2"
 					]
 				}
 			},
@@ -407,21 +383,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://reqres.in/api/users?page=3",
-					"protocol": "https",
+					"raw": "{{url}}=3",
 					"host": [
-						"reqres",
-						"in"
-					],
-					"path": [
-						"api",
-						"users"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "3"
-						}
+						"{{url}}=3"
 					]
 				}
 			},
@@ -544,21 +508,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://reqres.in/api/users?page=4",
-					"protocol": "https",
+					"raw": "{{url}}=4",
 					"host": [
-						"reqres",
-						"in"
-					],
-					"path": [
-						"api",
-						"users"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "4"
-						}
+						"{{url}}=4"
 					]
 				}
 			},
@@ -682,21 +634,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://reqres.in/api/users?page=5",
-					"protocol": "https",
+					"raw": "{{url}}=5",
 					"host": [
-						"reqres",
-						"in"
-					],
-					"path": [
-						"api",
-						"users"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "5"
-						}
+						"{{url}}=5"
 					]
 				}
 			},

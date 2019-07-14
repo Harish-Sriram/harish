@@ -133,9 +133,21 @@
 					}
 				],
 				"url": {
-					"raw": "{{url}}=1",
+					"raw": "https://reqres.in/api/users?page=1",
+					"protocol": "https",
 					"host": [
-						"{{url}}=1"
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -258,9 +270,21 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}=2",
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
 					"host": [
-						"{{url}}=2"
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
 					]
 				}
 			},
@@ -383,9 +407,21 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}=3",
+					"raw": "https://reqres.in/api/users?page=3",
+					"protocol": "https",
 					"host": [
-						"{{url}}=3"
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "3"
+						}
 					]
 				}
 			},
@@ -508,9 +544,21 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}=4",
+					"raw": "https://reqres.in/api/users?page=4",
+					"protocol": "https",
 					"host": [
-						"{{url}}=4"
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "4"
+						}
 					]
 				}
 			},
@@ -634,9 +682,21 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}=5",
+					"raw": "https://reqres.in/api/users?page=5",
+					"protocol": "https",
 					"host": [
-						"{{url}}=5"
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "5"
+						}
 					]
 				}
 			},

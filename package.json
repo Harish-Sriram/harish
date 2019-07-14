@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "api-test": "newman run C1.json"
+    "api-test": "newman run Postman project/C1.json"
   },
   "author": "harish sriram"
   }

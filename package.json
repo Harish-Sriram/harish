@@ -2,6 +2,9 @@
   "name": "harish",
   "version": "1.0.0",
   "description": "test for jenkins",
+  "directories": {
+    "test": "Postman project"
+  }
   "dependencies": {
     "newman": "^4.5.1",
     "socket.io": "^2.2.0"

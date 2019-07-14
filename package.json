@@ -2,13 +2,16 @@
   "name": "harish",
   "version": "1.0.0",
   "description": "test for jenkins",
+  "directories": {
+    "test": "Postman project"
+  },
   "dependencies": {
     "newman": "^4.5.1",
     "socket.io": "^2.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "api-test": "newman run C1.json"
+    "api-test": "newman run Postman project/C1.json"
   },
   "author": "harish sriram"
   }
